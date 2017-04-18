@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_device_generic_mips"/>
+  <remove-project name="device/generic/mini-emulator-mips" />
+
+  <remove-project name="LineageOS/android_hardware_samsung_slsi_exynos5" />
+  <remove-project name="LineageOS/android_hardware_ti_omap3" />
+  <remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
+  <remove-project name="LineageOS/android_hardware_ti_wlan" />
+  <remove-project name="LineageOS/android_hardware_ti_wpan" />
+
+  <remove-project name="LineageOS/android_device_google_accessory_arduino"/>
+  <remove-project name="LineageOS/android_device_google_accessory_demokit"/>
+
+  <remove-project name="LineageOS/android_packages_inputmethods_OpenWnn" />
+  <remove-project name="LineageOS/android_packages_inputmethods_PinyinIME" />
+
+  <remove-project name="platform/prebuilts/eclipse" />
+  <remove-project name="platform/tools/adt/eclipse" />
+  <remove-project name="platform/tools/adt/idea" />
+  <remove-project name="platform/tools/idea" />
+
+  <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"/>
+  <remove-project name="platform/prebuilts/python/linux-x86/2.7.5"/>
+</manifest>
