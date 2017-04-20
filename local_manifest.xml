@@ -20,13 +20,6 @@
   <!-- TeamWin recovery -->
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" />
 
-  <!-- F-Droid priveleged extension -->
-  <remote name="fdroid" fetch="https://gitlab.com/fdroid/" />
-  <project path="packages/apps/FDroidPrivilegedExtension"
-           name="privileged-extension.git" remote="fdroid"
-           revision="refs/tags/0.2" />
-
-
   <!-- ZTE N817 -->
   <project path="device/zte/n817" name="stevenh512/android_device_zte_n817" />
   <project path="kernel/zte/n817" name="stevenh512/android_kernel_zte_n817" />
