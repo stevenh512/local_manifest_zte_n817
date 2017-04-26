@@ -1,28 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- legaCyMod replacements -->
-  <remove-project name="LineageOS/android_build" />
-  <remove-project name="LineageOS/android_vendor_cm" />
-
-  <project path="build" name="legaCyMod/android_build" revision="cm-11.0" >
-      <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="vendor/cm" name="legaCyMod/android_vendor_cm" revision="cm-11.0" >
-      <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
-  </project>
-
   <!-- LineageOS dependencies -->
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-11.0" />
-  <project path="hardware/qcom/display-caf-new" name="LineageOS/android_hardware_qcom_display-caf-new" revision="cm-11.0" />
-  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" revision="cm-11.0" />
-  <project path="hardware/qcom/media-caf-new" name="LineageOS/android_hardware_qcom_media-caf-new" revision="cm-11.0" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-14.1" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-14.1" />
 
   <!-- TeamWin recovery -->
-  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" />
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" />
 
   <!-- ZTE N817 -->
   <project path="device/zte/n817" name="stevenh512/android_device_zte_n817" />
   <project path="kernel/zte/n817" name="stevenh512/android_kernel_zte_n817" />
   <project path="vendor/zte/n817" name="stevenh512/proprietary_vendor_zte_n817" />
 </manifest>
- 
+

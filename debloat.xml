@@ -1,25 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="LineageOS/android_device_generic_mips"/>
-  <remove-project name="device/generic/mini-emulator-mips" />
-
-  <remove-project name="LineageOS/android_hardware_samsung_slsi_exynos5" />
-  <remove-project name="LineageOS/android_hardware_ti_omap3" />
-  <remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
-  <remove-project name="LineageOS/android_hardware_ti_wlan" />
-  <remove-project name="LineageOS/android_hardware_ti_wpan" />
-
-  <remove-project name="LineageOS/android_device_google_accessory_arduino"/>
-  <remove-project name="LineageOS/android_device_google_accessory_demokit"/>
-
-  <remove-project name="LineageOS/android_packages_inputmethods_OpenWnn" />
-  <remove-project name="LineageOS/android_packages_inputmethods_PinyinIME" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/sample" />
+ 
+  <remove-project name="platform/external/eclipse-basebuilder" />
+  <remove-project name="platform/external/eclipse-windowbuilder" />
 
   <remove-project name="platform/prebuilts/eclipse" />
-  <remove-project name="platform/tools/adt/eclipse" />
+  <remove-project name="platform/prebuilts/eclipse-build-deps" />
   <remove-project name="platform/tools/adt/idea" />
   <remove-project name="platform/tools/idea" />
 
   <remove-project name="platform/prebuilts/python/darwin-x86/2.7.5"/>
   <remove-project name="platform/prebuilts/python/linux-x86/2.7.5"/>
+
+  <remove-project name="LineageOS/android_hardware_broadcom_libbt" />
+  <remove-project name="LineageOS/android_hardware_broadcom_wlan" />
+  <remove-project name="platform/hardware/intel/audio_media" />
+  <remove-project name="platform/hardware/intel/bootstub" />
+  <remove-project name="platform/hardware/intel/common/bd_prov" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libmix" />
+  <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libva" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libwsbm" />
+  <remove-project name="LineageOS/android_hardware_intel_common_omx-components" />
+  <remove-project name="LineageOS/android_hardware_intel_common_utils" />
+  <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
+  <remove-project name="LineageOS/android_hardware_intel_img_hwcomposer" />
+  <remove-project name="LineageOS/android_hardware_intel_img_psb_headers" />
+  <remove-project name="LineageOS/android_hardware_intel_img_psb_video" />
+  <remove-project name="platform/hardware/intel/sensors" />
+  <remove-project name="platform/hardware/marvell/bt" />
+  <remove-project name="platform/hardware/ti/omap3" />
+  <remove-project name="platform/hardware/ti/omap4-aah" />
+  <remove-project name="LineageOS/android_hardware_ti_omap4xxx" />
+  <remove-project name="LineageOS/android_hardware_ti_wlan" />
+  <remove-project name="LineageOS/android_hardware_ti_wpan" />
 </manifest>
